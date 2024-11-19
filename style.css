@@ -194,6 +194,43 @@ section {
     margin-right: 6px;
 }
 
+.menu {
+    padding: 50px 20px;
+    background-color: #111111; 
+    text-align: center; 
+}
+
+.menu h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 30px; 
+    color: #d6f0b9; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 0 auto; 
+}
+
+th, td {
+    padding: 15px; 
+    border: 1px solid #ddd; 
+    text-align: center; 
+}
+
+th {
+    background-color: #1d4e1f; 
+    color: white;
+    font-weight: 500; 
+}
+
+tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+tr:hover {
+    background-color: #332323;
+}
 @media(max-width: 1770px) {
     header {
         padding: 22px 4%;
